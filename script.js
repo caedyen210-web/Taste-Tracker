@@ -16,18 +16,18 @@ for (let i = 0; i < favoriteFoods.length; i++) {
 // 4a. Create a function that recommends a food.
 function printFoodRecommendation(foodName) {
     console.log(`Have you ever tried ${foodName}?`);
-    console.log(`I always recommend ${foodName} to friends.`);
-    console.log(`Trust me — ${foodName} is delicious.`);
+    console.log(`What I would recommend ${foodName} to friends.`);
+    console.log(`Personal favorites — ${foodName} is one of my top choices.`);
 }
 
 // 4b. Call the function at least 3 times.
 printFoodRecommendation("Chicken Wings");
-printFoodRecommendation("Sushi");
-printFoodRecommendation("Tacos");
+printFoodRecommendation("Pizza");
+printFoodRecommendation("Ramen");
 
 // Here's a list of 50 friends' favorite foods:
 let friendFavorites = [
-    "Pizza", "Sushi", "Pasta", "Falafel", "Burgers", "Ramen", "Pad Thai", "Curry", "Pho", "Nachos", "Gnocchi", "Donuts", "Steak", "Lasagna", "Biryani", "Tacos", "Croissant", "Churros", "Fried Rice", "Shawarma", "Miso Soup", "BBQ Ribs", "Hotpot", "Enchiladas", "Baklava", "Gyros", "Hummus", "Empanadas", "Pancakes", "Muffins", "Samosas", "Macarons", "Quiche", "Pierogi", "Arepas", "Okonomiyaki", "Ceviche", "Brisket", "Bao Buns", "Poutine", "Clam Chowder", "Fajitas", "Canelé", "Kimchi", "Tamales", "Omelette", "Biscuits", "Tempura", "Spring Rolls", "Bacon"
+    "Sushi", "Pizza", "Burritos", "Salad", "Burgers", "Ramen", "Takis", "Spegittie", "Pickels", "Nachos", "Ice Cream", "Donuts", "Steak", "Lasagna", "Chicken Adobo", "Tacos", "Fries", "Sushi", "Fried Rice", "Crab", "Miso Soup", "BBQ Ribs", "Hotpot", "Enchiladas", "Slasa", "Gyros", "Boa", "Beef Lo Main", "Pancakes", "Muffins", "Meatballs", "Macarons", "Shrimp", "Chicken Parmesan", "Pea Soup", "Okonomiyaki", "Boild Eggs", "Brisket", "Mac and Cheese", "Pears", "Clam Chowder", "Fajitas", "Hot Dogs", "Kimchi", "Tamales", "Omelette", "Biscuits","Spring Rolls","Bacon"
 ];
 
 // 5. Print out only foods that have an "a" in the name.
